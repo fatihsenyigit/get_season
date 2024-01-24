@@ -39,7 +39,7 @@ if (month == 2 && day >= 21 && day <= 28) {
 } else if (month == 2 && day >= 1 && day <= 20) {
   alert(`The date you entered is: ${day}/${month} and the season is: Winter`);
 } else {
-  alert("Wrong Date");
+  alert("Invalid month or day. Please enter valid values.");
 }
 
 // const day = +prompt("Gün girin")
